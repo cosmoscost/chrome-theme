@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "CosmosCost Dark",
+  "version": "1.0.0",
+  "description": "A beautiful dark theme inspired by the CosmosCost Dark VS Code theme with purple, orange, and blue accents",
+  "theme": {
+    "colors": {
+      "frame": "#0f172a",
+      "frame_inactive": "#1e293b",
+      "frame_incognito": "#0f172a",
+      "frame_incognito_inactive": "#1e293b",
+      "toolbar": "#0f172a",
+      "tab_text": "#64748b",
+      "tab_background_text": "#e2e8f0",
+      "tab_background_text_inactive": "#64748b",
+      "tab_background_text_incognito": "#e2e8f0",
+      "tab_background_text_incognito_inactive": "#64748b",
+      "bookmark_text": "#e2e8f0",
+      "ntp_background": "#0f172a",
+      "ntp_header": "#0f172a",
+      "ntp_link": "#a78bfa",
+      "ntp_text": "#e2e8f0",
+      "button_background": "#334155"
+    },
+    "tints": {
+      "buttons": [0.33, 0.5, 0.47]
+    },
+    "properties": {
+      "ntp_background_alignment": "center",
+      "ntp_background_repeat": "no-repeat",
+      "ntp_logo_alternate": 1
+    },
+    "images": {
+      "theme_frame": "images/theme_frame.png",
+      "theme_toolbar": "images/theme_toolbar.png",
+      "theme_tab_background": "images/theme_tab_background.png",
+      "theme_ntp_background": "images/theme_ntp_background.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
