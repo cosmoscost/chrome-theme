@@ -1,40 +1,36 @@
 {
   "manifest_version": 3,
   "name": "CosmosCost Dark",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A beautiful dark theme inspired by the CosmosCost Dark VS Code theme with purple, orange, and blue accents",
   "theme": {
     "colors": {
       "frame": [15, 23, 42],
-      "frame_inactive": [30, 41, 59],
+      "frame_inactive": [15, 23, 42],
       "frame_incognito": [15, 23, 42],
-      "frame_incognito_inactive": [30, 41, 59],
+      "frame_incognito_inactive": [15, 23, 42],
       "toolbar": [15, 23, 42],
-      "tab_text": [100, 116, 139],
-      "tab_background_text": [237, 237, 237],
+      "tab_text": [245, 158, 109],
+      "tab_background_text": [100, 116, 139],
       "tab_background_text_inactive": [100, 116, 139],
-      "tab_background_text_incognito": [237, 237, 237],
+      "tab_background_text_incognito": [100, 116, 139],
       "tab_background_text_incognito_inactive": [100, 116, 139],
+      "background_tab": [15, 23, 42],
+      "background_tab_inactive": [15, 23, 42],
+      "background_tab_incognito": [15, 23, 42],
+      "background_tab_incognito_inactive": [15, 23, 42],
       "bookmark_text": [237, 237, 237],
       "ntp_background": [15, 23, 42],
-      "ntp_header": [15, 23, 42],
-      "ntp_link": [167, 139, 250],
       "ntp_text": [237, 237, 237],
+      "ntp_link": [167, 139, 250],
       "button_background": [245, 158, 109]
     },
-    "tints": {
-      "buttons": [0.33, 0.5, 0.47]
-    },
-    "properties": {
-      "ntp_background_alignment": "center",
-      "ntp_background_repeat": "no-repeat",
-      "ntp_logo_alternate": 1
-    },
     "images": {
-      "theme_frame": "images/theme_frame.png",
-      "theme_toolbar": "images/theme_toolbar.png",
-      "theme_tab_background": "images/theme_tab_background.png",
-      "theme_ntp_background": "images/theme_ntp_background.png"
+      "theme_tab_background": "images/theme_tab_background.png"
+    },
+    "tints": {
+      "background_tab": [0.58, 0.3, 0.65],
+      "frame": [0.58, 0.3, 0.55]
     }
   },
   "icons": {
