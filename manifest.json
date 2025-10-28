@@ -39,7 +39,8 @@
   },
   "icons": {
     "16": "images/icon16.png",
-    "48": "images/icon48.png",
-    "128": "images/icon128.png"
+    "32": "images/cosmoscost-32.png",
+    "48": "images/cosmoscost-64.png",
+    "128": "images/cosmoscost-128.png"
   }
 }
